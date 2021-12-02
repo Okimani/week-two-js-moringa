@@ -88,3 +88,10 @@ console.log(myString);
 let someString = "My favourite  quote is, \"You have to believe in the power of your dreams\". I think that is a powerful statement."
 console.log(someString);
 
+const greeting = 'Good morning'
+const favColor = 'Blue'
+console.log(favColor) ;
+
+const addString = 9 + '9';
+console.log(addString);
+console.log(typeof addString);
