@@ -26,4 +26,29 @@ console.log(1008/7);
 console.log(1008%7);
 console.log(90%3);
 
+//Variables
+var myNumber =3;
+console.log(myNumber);
 
+// do math 
+myNumber + 5;
+console.log(myNumber);
+
+myNumber =myNumber +8;
+
+console.log(myNumber);
+
+var firstNumber =5;
+var secondNumber =10;
+var thirdNumber = firstNumber * secondNumber;
+console.log(thirdNumber);
+
+//Declare variable using let
+ let fourthNumber = 70;
+ console.log(fourthNumber);
+ 
+ //variables declared using const are immutable
+ const fifthNumber = 13;
+ fifthNumber = 2;  //This will throw an error 
+
+ 
