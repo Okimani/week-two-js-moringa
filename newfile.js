@@ -95,3 +95,13 @@ console.log(favColor) ;
 const addString = 9 + '9';
 console.log(addString);
 console.log(typeof addString);
+
+// METHODS
+console.log("Hello from the JavaScript console!");
+console.log(737.255342.toFixed(2)); //You can specify to what decimal point
+const decimalNumber = 737.255342.toFixed();
+console.log(typeof decimalNumber);
+
+// to exponential
+const expNumber = 98.4.toExponential();
+console.log(expNumber);
