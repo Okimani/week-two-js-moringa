@@ -79,3 +79,12 @@ console.log(newNumber);
 
 let michaelnewNumber = (michaelsFavorite * 26 );
 console.log(michaelnewNumber);
+
+// working with strings .... having strings with quotation marks
+
+let myString = "Someone once told me, \"Any sufficiently advanced technology is indistinguishable from magic.\""
+console.log(myString);
+
+let someString = "My favourite  quote is, \"You have to believe in the power of your dreams\". I think that is a powerful statement."
+console.log(someString);
+
