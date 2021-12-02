@@ -51,4 +51,8 @@ console.log(thirdNumber);
  const fifthNumber = 13;
  fifthNumber = 2;  //This will throw an error 
 
+ //variables naming conventions
+ // begin with a letter, first letter lower case, case-sensitive, use clear names 
+
  
+
