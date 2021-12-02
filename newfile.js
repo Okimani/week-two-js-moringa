@@ -49,10 +49,33 @@ console.log(thirdNumber);
  
  //variables declared using const are immutable
  const fifthNumber = 13;
- fifthNumber = 2;  //This will throw an error 
+ //fifthNumber = 2;  //This will throw an error 
 
  //variables naming conventions
  // begin with a letter, first letter lower case, case-sensitive, use clear names 
 
- 
 
+ //Practice variables
+ var someName = 'Oscar'
+ console.log(someName);
+
+ someName = 'Michael'
+ console.log(someName);
+
+favoriteNumber = 18;
+ let dividefavouriteNumber = (favoriteNumber / 2); //divide favorite number by two
+ console.log(dividefavouriteNumber);
+
+ let michaelsFavorite = 13;
+michaelsFavorite = 7;
+console.log(michaelsFavorite);
+
+// Substract my favourite number from michaels favourite number
+
+let newNumber = michaelsFavorite - favoriteNumber;
+console.log(newNumber);
+
+//Change the value of Michael's favorite number to be 26 times its current value
+
+let michaelnewNumber = (michaelsFavorite * 26 );
+console.log(michaelnewNumber);
