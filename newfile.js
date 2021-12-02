@@ -21,5 +21,9 @@ console.log(89*54);
 // Divide
 console.log(1008/7);
 
+//modulus
+
+console.log(1008%7);
+console.log(90%3);
 
 
