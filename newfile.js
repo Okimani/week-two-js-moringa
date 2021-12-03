@@ -102,6 +102,13 @@ console.log(737.255342.toFixed(2)); //You can specify to what decimal point
 const decimalNumber = 737.255342.toFixed();
 console.log(typeof decimalNumber);
 
-// to exponential
+// to exponential method
 const expNumber = 98.4.toExponential();
 console.log(expNumber);
+// to string method does not convert to string but simply returns a string
+var two =2;
+console.log(typeof two);
+const twostring = two.toString();
+console.log(typeof twostring);
+
+
