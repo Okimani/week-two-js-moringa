@@ -213,7 +213,16 @@ alert('Good morning ' + greetings +'!');
 //alert('The answer is ' + substractfunction(20,5));
 
 // take two numbers via prompt, add them up and display answer
+/*
 let answers = (mynum1, mynum2) => mynum1 + mynum2;
 let mynum1 =parseInt(prompt('Enter the first number'));
 let mynum2 =parseInt(prompt('Enter the second number'));
 alert('The answer is ' + answers(mynum1,mynum2));
+*/
+
+//function to multiply numbers 
+let multiplyfunction = (firstN, secondN) => firstN * secondN;
+console.log(multiplyfunction(2,7));
+
+let threeTimes = (first, second, third) => first * second * third;
+console.log(threeTimes(2,2,2));
