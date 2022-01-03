@@ -136,17 +136,8 @@ let summands = [1, 2, 3, 4, 5];
 summands.forEach(summand => total += summand);
     console.log(total);  // 15
 
-/* Functions //prompt
-let code=  prompt("Are you ready to code?").toUpperCase(); // I'm going to type "yes!"
-"YES!"
-console.log(code);
-Confirm button
- confirm("Would you like to continue?"); // I am going to press the OK button
-true
-*/
-
 //converting string to integer on input
-/*
+
 let age =prompt('Enter your age:');
 let agen =parseInt(age);
 console.log(agen + agen); 
@@ -154,10 +145,10 @@ console.log(agen + agen);
 //alernatively you parse before the prompt
 let newAge =parseInt(prompt('Enter your age;'));
 console.log(newAge+newAge);
-*/
+
 
 //functions 
-/*
+
 function makeNoise() {
     alert("meow!");
 }
@@ -202,23 +193,23 @@ let divide = (x, y) => {
 console.log(divide(49,7));
 
 var saySomething = whatToSay => alert(whatToSay);
-*/
 
-/*
+
+
 let greetings = prompt ('What is your name?');
 alert('Good morning ' + greetings +'!');
-*/
 
-//let substractfunction =(num1, num2) => num1 -num2;
-//alert('The answer is ' + substractfunction(20,5));
+
+let substractfunction =(num1, num2) => num1 -num2;
+alert('The answer is ' + substractfunction(20,5));
 
 // take two numbers via prompt, add them up and display answer
-/*
+
 let answers = (mynum1, mynum2) => mynum1 + mynum2;
 let mynum1 =parseInt(prompt('Enter the first number'));
 let mynum2 =parseInt(prompt('Enter the second number'));
 alert('The answer is ' + answers(mynum1,mynum2));
-*/
+
 
 //function to multiply numbers 
 let multiplyfunction = (firstN, secondN) => firstN * secondN;
