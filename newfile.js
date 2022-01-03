@@ -176,3 +176,14 @@ return firstNumber - secondNumber;
 }
 
 console.log(Substract(10,7));
+
+//use variables in functions 
+function multiply (number1, number2){
+return number1 * number2;
+}
+
+let five =5;
+let four =4;
+
+console.log(multiply(five, four));
+
