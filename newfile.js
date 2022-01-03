@@ -130,6 +130,12 @@ subjects.forEach(function(subject) {
     console.log(subject);
 });
 
+//
+let total = 0;
+let summands = [1, 2, 3, 4, 5];
+summands.forEach(summand => total += summand);
+console.log(total);  // 15
+
 
 
 
