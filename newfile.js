@@ -111,4 +111,8 @@ console.log(typeof two);
 const twostring = two.toString();
 console.log(typeof twostring);
 
+const words = 'example ' + 'here';
+console.log(words.toUpperCase());
+
+
 
