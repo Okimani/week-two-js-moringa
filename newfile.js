@@ -144,9 +144,35 @@ Confirm button
  confirm("Would you like to continue?"); // I am going to press the OK button
 true
 */
+
 //converting string to integer on input
+/*
 let age =prompt('Enter your age:');
 let agen =parseInt(age);
 console.log(agen + agen); 
 
+//alernatively you parse before the prompt
+let newAge =parseInt(prompt('Enter your age;'));
+console.log(newAge+newAge);
+*/
 
+//functions 
+function makeNoise() {
+    alert("meow!");
+}
+
+makeNoise();
+
+// function with an argument 
+function noise(animalSound){
+alert(animalSound);
+}
+
+noise('woof');
+
+// more function examples
+function Substract (firstNumber, secondNumber) {
+return firstNumber - secondNumber;
+}
+
+console.log(Substract(10,7));
