@@ -114,5 +114,23 @@ console.log(typeof twostring);
 const words = 'example ' + 'here';
 console.log(words.toUpperCase());
 
+// For loops
+let languages =['HTML', 'CSS', 'JAVASCRIPT', 'JAVA', 'PYTHON'];
+languages.forEach(function(language) {
+    console.log(language);
+});
+
+let cars = ['nissan', 'honda', 'bmw', 'subaru', 'mazda', 'vw'];
+cars.forEach(function(car){
+    console.log(car);
+});
+
+let subjects =['English', 'Math', 'Kiswahili','Geography'];
+subjects.forEach(function(subject) {
+    console.log(subject);
+});
+
+
+
 
 
