@@ -157,6 +157,7 @@ console.log(newAge+newAge);
 */
 
 //functions 
+/*
 function makeNoise() {
     alert("meow!");
 }
@@ -190,3 +191,29 @@ console.log(multiply(five, four));
 let cost = (price1, price2) => price1 * price2;
 console.log(cost(5,5));
 
+// function with more than one statement
+let divide = (x, y) => {
+
+    if (y!=0){
+        return x/y;
+    }
+}
+
+console.log(divide(49,7));
+
+var saySomething = whatToSay => alert(whatToSay);
+*/
+
+/*
+let greetings = prompt ('What is your name?');
+alert('Good morning ' + greetings +'!');
+*/
+
+//let substractfunction =(num1, num2) => num1 -num2;
+//alert('The answer is ' + substractfunction(20,5));
+
+// take two numbers via prompt, add them up and display answer
+let answers = (mynum1, mynum2) => mynum1 + mynum2;
+let mynum1 =parseInt(prompt('Enter the first number'));
+let mynum2 =parseInt(prompt('Enter the second number'));
+alert('The answer is ' + answers(mynum1,mynum2));
