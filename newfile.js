@@ -186,4 +186,7 @@ let five =5;
 let four =4;
 
 console.log(multiply(five, four));
+// arrow functions if a single statement ypu dont need the curly braces
+let cost = (price1, price2) => price1 * price2;
+console.log(cost(5,5));
 
