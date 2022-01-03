@@ -135,15 +135,18 @@ let total = 0;
 let summands = [1, 2, 3, 4, 5];
 summands.forEach(summand => total += summand);
     console.log(total);  // 15
-    
-// Functions //prompt
+
+/* Functions //prompt
 let code=  prompt("Are you ready to code?").toUpperCase(); // I'm going to type "yes!"
 "YES!"
 console.log(code);
-//Confirm button
+Confirm button
  confirm("Would you like to continue?"); // I am going to press the OK button
 true
-
-
+*/
+//converting string to integer on input
+let age =prompt('Enter your age:');
+let agen =parseInt(age);
+console.log(agen + agen); 
 
 
