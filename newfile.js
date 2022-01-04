@@ -135,7 +135,7 @@ let total = 0;
 let summands = [1, 2, 3, 4, 5];
 summands.forEach(summand => total += summand);
     console.log(total);  // 15
-
+/*
 //converting string to integer on input
 
 let age =prompt('Enter your age:');
@@ -197,8 +197,8 @@ var saySomething = whatToSay => alert(whatToSay);
 
 
 let greetings = prompt ('What is your name?');
+   
 alert('Good morning ' + greetings +'!');
-
 
 let substractfunction =(num1, num2) => num1 -num2;
 alert('The answer is ' + substractfunction(20,5));
@@ -217,3 +217,15 @@ console.log(multiplyfunction(2,7));
 
 let threeTimes = (first, second, third) => first * second * third;
 console.log(threeTimes(2,2,2));
+*/
+//
+let myName =(prompt('Enter your Name'));
+let myAge =prompt('Enter your age');
+let favouriteFood = prompt('Enter your fovourite food');
+let info =(myName, myAge, favouriteFood) => {
+    alert('Your name is ' + myName, 'You are' + myAge + 'years old and your favourite food is' + favouriteFood);
+}
+
+info(myName,myAge,favouriteFood);
+
+//Prompt the user to enter their age, another prompt to enter their name and another prompt to enter their favorite food. Pass these as arguments to a function that returns a sentence combining all of this information. Then display the returned string with an alert.
